@@ -1,0 +1,20 @@
+{
+  "name": "nyasha-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot Nyasha using Baileys and Google Gemini",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^1.0.0",
+    "@whiskeysockets/baileys": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "pino": "^8.0.0",
+    "pino-pretty": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
